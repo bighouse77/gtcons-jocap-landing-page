@@ -160,6 +160,16 @@ button { font: inherit; cursor: pointer; }
 }
 .hero__more .arrow { transition: transform .3s var(--ease); }
 .hero__more:hover .arrow { transform: translateX(6px); }
+.hero__services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 64px; max-width: 1040px; }
+.hero__services a {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; height: 100%;
+  padding-top: 18px; border-top: 2px solid rgba(255,255,255,.35); color: var(--white); text-decoration: none;
+  transition: border-color .3s;
+}
+.hero__services strong { font-stretch: 75%; font-weight: 800; font-size: clamp(1.15rem, 1.6vw, 1.45rem); line-height: 1.1; text-transform: uppercase; letter-spacing: .01em; }
+.hero__services .arrow { color: var(--yellow); font-weight: 700; transition: transform .3s var(--ease); }
+.hero__services a:hover { border-color: var(--yellow); }
+.hero__services a:hover .arrow { transform: translateX(6px); }
 .hero__stripe { position: absolute; left: 0; right: 0; bottom: 0; height: 10px; background: var(--yellow); }
 
 @keyframes heroZoom { from { transform: scale(1.08); } to { transform: scale(1); } }
@@ -241,7 +251,7 @@ button { font: inherit; cursor: pointer; }
 .work__place { color: var(--muted); font-weight: 600; margin-bottom: 8px; }
 .work__text { margin-bottom: 20px; }
 .work .link-arrow { align-self: flex-start; margin-top: auto; }
-.works__grid--compact { grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 24px; }
+.works__grid--compact { grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 24px; }
 .work--compact .work__media img { aspect-ratio: 4 / 3; }
 .work--compact .work__body { padding: 24px; }
 .work--compact .work__title { font-size: clamp(1.4rem, 2vw, 1.7rem); }
@@ -387,6 +397,8 @@ button { font: inherit; cursor: pointer; }
   .header__logo img { height: 52px; }
   .hero { min-height: 640px; }
   .hero__content { padding-block: 96px 80px; }
+  .hero__services { grid-template-columns: 1fr; gap: 0; margin-top: 44px; }
+  .hero__services a { padding-block: 14px; border-top-width: 1px; }
   .values__grid, .sectors__grid, .footer__grid, .form__row, .works__grid--compact { grid-template-columns: 1fr; }
   .sector { min-height: 360px; }
   .cta__inner .btn { width: 100%; }

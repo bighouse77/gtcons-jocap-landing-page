@@ -92,6 +92,34 @@
         ['lombadas-07', 'Lombada em asfalto'],
         ['lombadas-08', 'Lombofaixa em asfalto']
       ]
+    },
+    condominio: {
+      title: 'Condomínio residencial · Ribeirão Preto/SP',
+      photos: [
+        ['condominio-rp-01', 'Vista do condomínio com calçadas e vagas de garagem em concreto'],
+        ['condominio-rp-02', 'Concretagem do piso das vagas de garagem'],
+        ['condominio-rp-03', 'Vagas de garagem com armação e concretagem'],
+        ['condominio-rp-04', 'Acabamento de calçada em concreto usinado'],
+        ['condominio-rp-05', 'Calçada em concreto recém-executada'],
+        ['condominio-rp-06', 'Lançamento e acabamento do concreto da calçada'],
+        ['condominio-rp-07', 'Acabamento de calçada junto à guia'],
+        ['condominio-rp-08', 'Tela de aço pronta para a concretagem da calçada'],
+        ['condominio-rp-09', 'Piso de garagem e calçadas concluídos'],
+        ['condominio-rp-10', 'Vista geral das áreas de garagem concluídas']
+      ]
+    },
+    drenagem: {
+      title: 'Drenagem superficial · Ribeirão Preto/SP',
+      photos: [
+        ['drenagem-rp-01', 'Guia extrusada em canteiro central'],
+        ['drenagem-rp-02', 'Guia extrusada em curva'],
+        ['drenagem-rp-03', 'Sarjeta extrusada ao longo da via'],
+        ['drenagem-rp-04', 'Sarjeta extrusada ao longo da via'],
+        ['drenagem-rp-05', 'Sarjeta extrusada concluída'],
+        ['drenagem-rp-06', 'Assentamento de guias pré-moldadas e boca de lobo'],
+        ['drenagem-rp-07', 'Assentamento de guias pré-moldadas'],
+        ['drenagem-rp-08', 'Guias pré-moldadas assentadas']
+      ]
     }
   };
 
